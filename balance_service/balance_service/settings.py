@@ -82,7 +82,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'avito_balance',
-        'USER': 'admin',
+        'USER': 'postgres',
         'PASSWORD': 'Ksu090787',
         'HOST': '127.0.0.1',
         'PORT': '5432',

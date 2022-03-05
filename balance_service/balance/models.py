@@ -30,7 +30,7 @@ class Balance(CreatedModel):
         'Баланс пользователя',
         decimal_places=2,
         max_digits=10,
-        default=0.00        
+        default=0      
     )
     owner = models.ForeignKey(
         User,
