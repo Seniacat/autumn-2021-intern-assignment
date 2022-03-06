@@ -8,7 +8,7 @@ from rest_framework.response import Response
 from balance.models import Balance, Transaction, Transfer
 from balance.errors import (BalanceDoesNotExist, UserDoesNotExist, CurrencyNotFound,
                             ErrorResponse)
-from balance.scripts import convert
+from balance.currency import convert
 from balance.serializers import (ShowBalanceSerializer, ChangeBalanceSerializer,
                                 TransferSerializer, TransactionSerializer)
 

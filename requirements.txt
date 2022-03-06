@@ -3,5 +3,5 @@ django==3.2.6
 djangorestframework==3.12.4
 PyJWT==2.1.0
 python-dotenv==0.19.2
-psycopg2==2.9.3
+psycopg2-binary==2.9.3
 forex-python==1.8
